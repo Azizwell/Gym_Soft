@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.navbar-sys {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 4px;
+}
+
+.logo-system img {
+  width: 150px; /* Задайте ширину логотипа */
+  height: auto; /* Поддержка пропорций */
+}
+
+.list-page a {
+  margin: 0 15px;
+
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list-page a:hover {
+  color: #007bff; /* Цвет ссылки при наведении */
+}
+
+.btn-auth .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-auth .btn:hover {
+  background-color: #0056b3;
+}
+
+.carousel-data {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.stars::after {
+  content: " *";
+  color: red;
+}
